@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portrait ID Card</title>
+  <style>
+    body {
+      background-color: #0d1b2a; /* Deep navy page background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .id-card {
+      background-color: #1b263b; /* Dark card background */
+      width: 270px;
+      height: 500px;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      color: #f4f4f4;
+    }
+
+    .id-card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 18px;
+      border: 4px solid #f4d35e; /* Gold border */
+    }
+
+    .id-card p {
+      margin: 8px 0;
+      font-size: 18px; /* Increased text size */
+    }
+
+    .id-card span {
+      font-weight: bold;
+      color: #f4d35e; /* Gold accent text */
+    }
+
+    .hire-btn {
+      margin-top: auto;
+      padding: 12px 30px;
+      background-color: #e63946;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 17px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .hire-btn:hover {
+      background-color: #a4161a;
+      transform: scale(1.1); /* Button grows on hover */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="id-card">
+    <img src="image/second-guy.jpg" alt="James Guy">
+    
+    <p><span>Name:</span> Durowoju Mathew</p>
+    <p><span>Department:</span> Statistics</p>
+    <p><span>Matric No:</span> 21/56EG083</p>
+    <p><span>Skill:</span> HTML, CSS</p>
+    <p><span>Program:</span> U-Inspire Web Development</p>
+    
+    <button class="hire-btn">Hire Me</button>
+  </div>
+
+</body>
+</html>
